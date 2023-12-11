@@ -1220,6 +1220,8 @@ strong {
   text-decoration: none; /* Link default gelen alt çizgi kaldırıldı */
   font-weight: 600;
   font-size: 16px;
+  border: 1px solid white;
+  border-radius: 10px;
   display: block; /* a elemanları Block-Level Düzeyine getirilerek alt alta gelmesi sağlandı */
 }
 
@@ -1231,7 +1233,7 @@ strong {
 .demo-dropdown > li > a {
   color: #fff;
   /* background: #2d2b2c; */
-  padding:  5px;
+  padding: 2px 5px;
 }
 
 .demo-dropdown > li ul {
