@@ -36,7 +36,7 @@
   
         $('body,html').animate({
         scrollTop: totalScroll
-        }, 300);
+        }, 0);
       }
     });
   
